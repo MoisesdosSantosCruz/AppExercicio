@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExerciciosApp</string>
+    <string name="txtvl">Digite valor i</string>
+    <string name="txtvl2">Digite valor A</string>
+    <string name="txtvl3">Digite Valor B</string>
+    <string name="txtvl4">Digite Valor C</string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="txtresultado">Resultado</string>
+    <string name="txtprova">Prova</string>
+</resources>
