@@ -7,4 +7,5 @@
     <string name="btnVerificar">Verificar</string>
     <string name="txtresultado">Resultado</string>
     <string name="txtprova">Prova</string>
+    <string name="txttitulo">Bem-vindo!</string>
 </resources>

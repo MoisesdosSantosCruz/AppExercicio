@@ -9,12 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     public EditText txtvl1;
-
     private EditText txtvlA;
     private EditText txtvlB;
-
     private EditText txtvlC;
-
     private TextView txtresultado;
     private TextView txtresultA;
 
@@ -23,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         txtvl1 = findViewById(R.id.txtvalor);
         txtresultado = findViewById(R.id.txtresultado);
         txtresultA = findViewById(R.id.txtresultA);
@@ -42,17 +40,17 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        if (i == 1 || i==3 || i==5 || i==7) {
-            int count = 1;
+        if (i > 1){
+            int count = i + 1;
 
-            txtresultado.setText(String.valueOf(i+a+b+c));
+            txtresultado.setText(String.valueOf(i + a + b + c));
 
             count++;
             txtresultA.setText(String.valueOf("A,B,C= " + count + count + count));
 
-        }
 
-            else if (i > 10) {
+        }
+        else if (i < 1){
 
             int count = -1;
 

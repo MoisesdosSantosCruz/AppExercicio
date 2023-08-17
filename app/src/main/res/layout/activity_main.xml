@@ -89,6 +89,7 @@
         android:hint="@string/txtvl2"
         android:inputType="text"
         android:phoneNumber="false"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -135,5 +136,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtvlB"
         tools:ignore="Deprecated" />
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="171dp"
+        android:autoText="false"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:gravity="center_vertical"
+        android:text="@string/txttitulo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Deprecated,TextViewEdits" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
