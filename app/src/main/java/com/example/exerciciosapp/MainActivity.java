@@ -1,19 +1,20 @@
 package com.example.exerciciosapp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    public EditText txtvl1;
-    private EditText txtvlA;
-    private EditText txtvlB;
-    private EditText txtvlC;
-    private TextView txtresultado;
-    private TextView txtresultA;
+
+    private EditText vlC;
+    private EditText vlR;
+    private EditText vlS;
+    private TextView vlTotal;
 
 
     @Override
@@ -21,49 +22,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtvl1 = findViewById(R.id.txtvalor);
-        txtresultado = findViewById(R.id.txtresultado);
-        txtresultA = findViewById(R.id.txtresultA);
-        txtvlA = findViewById(R.id.txtvlA);
-        txtvlB = findViewById(R.id.txtvlB);
-        txtvlC = findViewById(R.id.txtvlC);
+        vlC = findViewById(R.id.vlC);
+        vlR = findViewById(R.id.vlR);
+        vlS = findViewById(R.id.vlS);
+        vlTotal = findViewById(R.id.txttotal);
+
     }
 
 
+    @SuppressLint("SetTextI18n")
     public void verificar(View view) {
 
-        int i =  Integer.parseInt(txtvl1.getText().toString());
-        int a =  Integer.parseInt(txtvlA.getText().toString());
-        int b =  Integer.parseInt(txtvlB.getText().toString());
-        int c =  Integer.parseInt(txtvlC.getText().toString());
+        int C =  Integer.parseInt(vlC.getText().toString());
+        int R =  Integer.parseInt(vlR.getText().toString());
+        int S =  Integer.parseInt(vlS.getText().toString());
 
 
+        vlTotal.setText(String.valueOf(C*2.00+R*2.50+S*1.50));
+
+        if(vlC == null || vlR == null || vlS == null){
 
 
-        if (i > 1){
-            int count = i + 1;
+            String texto = "Coloque os valores";
+            int duration = Toast.LENGTH_SHORT;
 
-            txtresultado.setText(String.valueOf(i + a + b + c));
-
-            count++;
-            txtresultA.setText(String.valueOf("A,B,C= " + count + count + count));
-
-
+            Toast toast = Toast.makeText(this,texto,duration);
+            toast.show();
         }
-        else if (i < 1){
-
-            int count = -1;
-
-             txtresultado.setText(String.valueOf(i-a-b-c));
-
-             count--;
-             txtresultA.setText(String.valueOf("A,B,C = "+ count + count + count));
-
-        }
-
 
 
     }
+
+
+
 
 
 }
