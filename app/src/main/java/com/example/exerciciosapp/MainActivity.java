@@ -1,6 +1,7 @@
 package com.example.exerciciosapp;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -49,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(this,texto,duration);
             toast.show();
         }
+
+
+    }
+    public void Trocar(View view){
+        Intent intent = new Intent(MainActivity.this,ExecicioOne.class);
+        startActivity(intent);
 
 
     }

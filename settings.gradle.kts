@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ExerciciosApp"
 include(":app")
+include(":exercicioone")

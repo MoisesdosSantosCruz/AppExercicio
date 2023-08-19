@@ -9,5 +9,9 @@
     <string name="vlR">Digite a quantidade R</string>
     <string name="vlS">Digite a quantidade S</string>
     <string name="txtTotal">Valor total</string>
-
+    <string name="valor1">valor1</string>
+    <string name="valor2">valor2</string>
+    <string name="txtresult1">Resultado</string>
+    <string name="btnApresentar">Apresentar</string>
+    <string name= "btnTrocar">Trocar</string>
 </resources>
