@@ -29,8 +29,21 @@ Git push origin main.
 - Aqui foi feito baseando-se numa calculadora, porém para obter a quantidade dos pedidos.
 - Cada editText é um código do pedido do cliente da quantidade desejada.
 - O botão verificar é para calcular os valores para dar quanto de valor total no final em dinheiro.
+- Quando o cliente for pedir, ele terá que colocar nas editText o valor da quantidade dos seus pedidos, em cachorro quente (C) - $2,00, Refrigerante (R) - $2,50 e a Sobremesa (S) - $1,50. Logo em seguida, o aplicativo pegará esses valores e somará com o custo dos três multiplicado pela quantidade do pedido, assim dará o total do custo.
 
 ![Captura de Tela (238)](https://github.com/MoisesdosSantosCruz/AppExercicio/assets/127432212/95ba112a-685e-440a-9768-e9323fb5639f)
+
+- Aqui foi também baseando-se nuam calculadora para pegar os valores e dividí-los
+- Nos editText será colocado os valores
+- O resultado é a textView mostrará o valor final
+- Quando os valores forem colocados na EditText, o aplicativo irá dividí-los e o que sobrar de resto mostrará se os números são multiplos ou não, caso a sobra for 1, não são múltiplos, caso 0; são múltiplos. 
+![image](https://github.com/MoisesdosSantosCruz/AppExercicio/assets/127432212/edcba7c7-3054-4719-b0d5-8ff17072a480)
+
+
+- Vídeo
+  https://drive.google.com/file/d/1wlckWZwtx-Wh9Letw8-tsByvsjMQCC54/view?usp=sharing
+
+
 
 
 
