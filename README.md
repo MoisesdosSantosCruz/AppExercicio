@@ -33,10 +33,13 @@ Git push origin main.
 
 ![Captura de Tela (238)](https://github.com/MoisesdosSantosCruz/AppExercicio/assets/127432212/95ba112a-685e-440a-9768-e9323fb5639f)
 
+# Como o Aplicativo foi feito (Exercício 1)
+- (Feito por Matheus Peixinho)
 - Aqui foi também baseando-se nuam calculadora para pegar os valores e dividí-los
 - Nos editText será colocado os valores
 - O resultado é a textView mostrará o valor final
-- Quando os valores forem colocados na EditText, o aplicativo irá dividí-los e o que sobrar de resto mostrará se os números são multiplos ou não, caso a sobra for 1, não são múltiplos, caso 0; são múltiplos. 
+- Quando os valores forem colocados na EditText, o aplicativo irá dividí-los e o que sobrar de resto mostrará se os números são multiplos ou não, caso a sobra for 1, não são múltiplos, caso 0; são múltiplos.
+
 ![image](https://github.com/MoisesdosSantosCruz/AppExercicio/assets/127432212/edcba7c7-3054-4719-b0d5-8ff17072a480)
 
 
